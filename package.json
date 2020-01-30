@@ -11,7 +11,9 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "docker build --tag awesome-devops-cd .",
+    "docker": "docker run -p 8888:8888 awesome-devops-cd"
   },
   "repository": {
     "type": "git",
