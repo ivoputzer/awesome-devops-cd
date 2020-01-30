@@ -4,6 +4,11 @@
   "private": true,
   "description": "awesome-devos-cd",
   "main": "index.js",
+  "config": {
+    "http": {
+      "port": 8888
+    }
+  },
   "scripts": {
     "test": "mocha",
     "start": "node index.js"

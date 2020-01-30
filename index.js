@@ -1,7 +1,7 @@
 const { createServer } = require('http')
 
 createServer(requestHandler)
-  .listen(8080, function onceListening () {
+  .listen(process.env.npm_package_config_http_port, function onceListening () {
     console.log('--listening on:', this.address())
   })
 
