@@ -1,14 +1,11 @@
-FROM node:latest
-
-RUN mkdir /data
-VOLUME /data
-
-COPY index.js /data/index.js
-COPY package.json /data/package.json
-RUN cd data
-RUN npm install
+FROM node:alpine
 
 WORKDIR /data
+
+COPY package.json /data/package.json
+RUN npm install
+
+COPY ./ ./
 
 EXPOSE 8080
 
