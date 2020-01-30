@@ -5,7 +5,8 @@
   "description": "awesome-devos-cd",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
