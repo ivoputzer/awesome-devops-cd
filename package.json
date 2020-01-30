@@ -2,7 +2,7 @@
   "name": "awesome-devops-cd",
   "version": "0.0.0-private.0",
   "private": true,
-  "description": "awesome-devos-cd === Simple application for devops course and continuous delivery demo.",
+  "description": "awesome-devos-cd",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
