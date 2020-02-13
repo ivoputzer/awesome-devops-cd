@@ -13,7 +13,7 @@ jobs:
     - name: Npm install
       run: |
         npm install
-    - Name: Npm test
+    - name: Npm test
       run: |
         npm test
 
