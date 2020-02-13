@@ -1,4 +1,4 @@
-Name: "Awesome Devops"
+name: Awesome Devops
 on: [push]
 jobs:
   node:
