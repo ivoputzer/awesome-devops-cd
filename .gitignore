@@ -1,4 +1,7 @@
 node_modules/
-.vagrant
+.vscode/
+.vagrant/
+.nyc_output/
 .npmrc
+coverage/
 *.log

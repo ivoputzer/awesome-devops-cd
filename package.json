@@ -11,7 +11,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node index.js",
+    "coverage": "nyc --reporter=html mocha test/**",
+    "start": "node-dev index.js",
     "build": "docker build --tag awesome-devops-cd .",
     "docker": "docker run -p 80:80 awesome-devops-cd"
   },
@@ -24,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/ivoputzer/awesome-devops-cd/issues"
   },
-  "homepage": "https://github.com/ivoputzer/awesome-devops-cd#readme"
+  "homepage": "https://github.com/ivoputzer/awesome-devops-cd#readme",
+  "devDependencies": {
+    "mocha": "^7.0.1"
+  },
+  "dependencies": {
+    "nyc": "^15.0.0"
+  }
 }
