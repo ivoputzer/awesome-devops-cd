@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/ivoputzer/awesome-devops-cd#readme",
   "devDependencies": {
-    "mocha": "^7.0.1"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "nyc": "^15.0.0"
